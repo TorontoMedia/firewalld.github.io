@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Connections, Interfaces and Sources"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 It is possible to assign (or bind) zones to connections, interfaces and source addresses.

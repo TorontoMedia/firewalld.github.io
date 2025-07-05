@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Options"
+parent: "Service"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 

@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Examples"
+parent: "IPSet"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 Here are some example ipsets:

@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "firewall-applet"
+parent: "Utilities"
+ancestor: "Documentation"
+nav_order: 3
 ---
 
 firewall-applet is a tray applet for firewalld. It provides information about the firewalld configuration like the default zone and also the zone bindings like connections, interfaces and sources.

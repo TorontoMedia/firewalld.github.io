@@ -1,0 +1,33 @@
+<div class="d-flex flex-justify-around text-delta" role="contentinfo">
+  <section aria-labelledby="recent-posts-heading">
+    <h2 id="recent-posts-heading">Recent Posts</h2>
+    <ul>
+      {% for post in site.posts limit:5 site.recent_posts %}
+        <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {% if site.titlecase %}
+              {{ post.title | titlecase }}
+            {% else %}
+              {{ post.title }}
+            {% endif %}
+          </a>
+        </li>
+      {% endfor %}    
+    </ul>
+  </section>
+
+  <section aria-labelledby="quick-links-heading">
+    <h2 id="quick-links-heading">Quick Links</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/firewalld/firewalld/issues/new">Report a new issue</a>
+      </li>
+      <li>
+        <a href="https://github.com/firewalld/firewalld/issues">Browse issues</a>
+      </li>
+    </ul>    
+  </section>  
+</div>
+<p>
+  <a href="#top" id="back-to-top">Back to Top</a>
+</p>

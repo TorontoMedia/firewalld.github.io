@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Open a Port or Service"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 3
 ---
 
 There are different ways to open up a port (range) or service. These ways depend on the use case and the number of changes that are needed to make it work.

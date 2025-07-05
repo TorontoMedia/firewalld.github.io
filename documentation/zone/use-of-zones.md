@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Use of Zones"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 4
 ---
 
 ## Which zone should be used?

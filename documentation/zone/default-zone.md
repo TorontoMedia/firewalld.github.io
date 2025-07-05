@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Default Zone"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 3
 ---
 
 The default zone is the zone that is used for everything that is not explicitly bound/assigned to another zone.

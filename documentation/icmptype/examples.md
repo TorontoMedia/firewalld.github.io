@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Examples"
+parent: "ICMP Type"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 Here are some example icmptypes:

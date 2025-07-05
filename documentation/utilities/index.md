@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: "Utilities"
+parent: "Documentation"
+nav_order: 3
 ---
 
 These are the tools that are part of firewalld:
 
-<ul>
-{% for _node in site.data.nav %}{% assign level = 1 %}{% include toc.html level=level path="/" base_path=page.url node=_node %}{% endfor %}
-</ul>
+{:toc}

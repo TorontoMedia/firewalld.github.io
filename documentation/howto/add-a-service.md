@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Add a Service"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 4
 ---
 
 There are different ways to a add a new service. A new service will only be visible in permanent configuration after it has been added. To make it active in the runtime environment you need to reload firewalld.

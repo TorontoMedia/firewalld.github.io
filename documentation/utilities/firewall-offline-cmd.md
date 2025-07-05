@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "firewall-offline-cmd"
+parent: "Utilities"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 This is the command line tool to be able to configure firewalld if it is not running or active, for example in the system installation stage or in a change root.

@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "firewall-cmd"
+parent: "Utilities"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 firewall-cmd is the primary command line tool for firewalld. It can be used to

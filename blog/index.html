@@ -1,15 +1,16 @@
 ---
-layout: home
-title: Blog
+layout: default
+nav_exclude: true
+ancestor: Blog
 ---
 
 {% include paginator.html position="top" %}
 
-<div>
+<div class="my-8">
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="entry">
+  <div class="mx-7 entry">
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
     {{ post.content }}

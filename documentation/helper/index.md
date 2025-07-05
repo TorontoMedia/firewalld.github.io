@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Helper"
+parent: "Documentation"
+nav_order: 8
 ---
 
 A firewalld helper defines the configuration that are needed to be able to use a netfilter connection tracking helper if automatic helper assignment is turned off, which is then the secure use of connection tracking helpers.
@@ -11,8 +13,6 @@ A firewalld helper can be a list of local ports, a kernel module and a family de
 
 Here is more information about helpers:
 
-<ul>
-{% for _node in site.data.nav %}{% assign level = 1 %}{% include toc.html level=level path="/" base_path=page.url node=_node %}{% endfor %}
-</ul>
+{:toc}
 
 Further helper configuration options and generic information about helpers are also described in the [firewalld.helper](../man-pages/firewalld.helper.html) man page.

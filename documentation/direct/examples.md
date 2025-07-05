@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Examples"
+parent: "Direct Interface"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 Here are some examples:

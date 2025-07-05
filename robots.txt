@@ -1,1 +1,3 @@
-http://firewalld.org/robots.txt
+User-agent: *
+
+Sitemap: https://firewalld.org/sitemap.xml

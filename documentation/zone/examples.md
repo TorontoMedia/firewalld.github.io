@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Examples"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 6
 ---
 
 Here are some zone examples:

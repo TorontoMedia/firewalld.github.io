@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Options"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 5
 ---
 
 The zone configuration can contain these tags and attributes. Some of them are mandatory, others optional.

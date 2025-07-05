@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Architecture"
+parent: "Documentation"
+nav_order: 1
 --- 
 
 firewalld has a two layer design: The core layer and the D-Bus layer on top. The core layer is responsible for handling the configuration and the back ends like iptables, ip6tables, ebtables, ipset and the module loader.

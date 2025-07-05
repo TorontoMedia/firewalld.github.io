@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Reload firewalld"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 2
 ---
 
 ## With firewall-cmd

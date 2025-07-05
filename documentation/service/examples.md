@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Examples"
+parent: "Service"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 Here are some example services:

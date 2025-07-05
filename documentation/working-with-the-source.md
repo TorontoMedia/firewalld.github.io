@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Working With The Source"
+parent: "Documentation"
+nav_order: 14
 ---
 
 You can use the [source repository](https://github.com/firewalld/firewalld) directly to test out changes.

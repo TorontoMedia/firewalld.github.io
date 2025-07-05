@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Direct Interface"
+parent: "Documentation"
+nav_order: 10
 ---
 
 The direct interface is mainly used by services or applications to add specific firewall rules. It requires basic knowledge of ip(6)tables concepts (tables, chains, commands, parameters, targets).
@@ -9,8 +11,6 @@ It can also be used to add rules to the firewall, that are not supported by fire
 
 Here is more information about the direct interface:
 
-<ul>
-{% for _node in site.data.nav %}{% assign level = 1 %}{% include toc.html level=level path="/" base_path=page.url node=_node %}{% endfor %}
-</ul>
+{:toc}
 
 Further direct interface configuration options and generic information about the direct interface is also described in the [firewalld.direct](../man-pages/firewalld.direct.html) man page.

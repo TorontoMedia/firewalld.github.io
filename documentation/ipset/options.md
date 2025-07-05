@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Options"
+parent: "IPSet"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 The configuration can contain these tags and attributes. Some of them are mandatory, others optional. 

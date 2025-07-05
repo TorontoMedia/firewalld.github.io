@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Debug firewalld"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 5
 ---
 
 You can either add the --debug option to the firewalld arguments in the `/etc/sysconfig/firewalld` file or in the firewalld service file or you can start firewalld in a terminal after stopping the service.

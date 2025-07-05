@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Predefined Zones"
+parent: "Zone"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 These are the zones provided by firewalld sorted according to the default trust level of the zones from untrusted to trusted:

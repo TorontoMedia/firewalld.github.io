@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: Contribute
+nav_order: 3
 ---
 
 The firewalld project uses github for tracking issues and the overall development process. If you’d like to report a bug you found in any of the components, request a feature to be implemented (or included if you already have a patch) or just to track the progress, direct your browser to:

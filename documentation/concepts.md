@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Concepts"
+parent: "Documentation"
+nav_order: 0
 --- 
 
 ## Introduction

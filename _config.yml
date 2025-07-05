@@ -1,5 +1,5 @@
 # Site settings
-name: firewalld
+title: firewalld
 email: twoerner<AT>redhat.com
 author: Thomas Woerner
 lang: "en"
@@ -10,11 +10,29 @@ description: > # this means to ignore newlines until "baseurl:"
   Firewalld provides a dynamically managed firewall with support for network/firewall zones that defines the trust level of network connections or interfaces.
 
 baseurl:
-url: firewalld.github.io
-production_url: http://firewalld.org
+url: "https://firewalld.org"
+
+theme: just-the-docs
 
 # Exclude our ruby stuff
-exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized, slim-pickins-jekyll-theme-master]
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
+
+
+ga_tracking: UA-83693467-1
+ga_tracking_anonymize_ip: true
+logo: "images/firewalld.org.png"
+search_enabled: true
+enable_copy_code_button: true
+nav_external_links:
+  - title: Blog
+    url: /blog
+    hide_icon: true
+    opens_in_new_tab: false
+mermaid:
+  version: "9.1.3"
+aux_links:
+  "FirewallD on GitHub":
+    - "https://github.com/firewalld/firewalld"
 
 
 # Build settings
@@ -27,7 +45,6 @@ destination: _site
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-seo-tag
 
 feed:
   path: atom.xml
@@ -39,8 +56,3 @@ sass:
 permalink: /:year/:month/:title
 paginate: 5
 paginate_path: "/blog/page/:num/"
-
-#### SEO Stuff
-# Google Analytics
-google_universal_analytics: UA-83693467-1
-google_universal_analytics_cookiedomain: auto

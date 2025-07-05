@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Options"
+parent: "Direct Interface"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 Direct configuration gives a more direct access to the firewall. It requires user to know basic ip(6)tables/ebtables concepts, i.e. table (`filter/mangle/nat/...`), chain (`INPUT/OUTPUT/FORWARD/...`), commands (`-A/-D/-I/...`), parameters (`-p/-s/-d/-j/...`) and targets (`ACCEPT/DROP/REJECT/...`). Direct configuration should be used only as a last resort when it's not possible to use [firewalld.zone(5)](../man-pages/firewalld.zone.html). See also Direct Options in [firewall-cmd(1)](../man-pages/firewall-cmd.html).

@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Manual Pages
+layout: default
+title: "Manual Pages"
+parent: "Documentation"
+nav_order: 12
 ---
 
-<ol>
-{% for _node in site.data.nav %}{% assign level = 1 %}{% include toc.html level=level path="/" base_path=page.url node=_node %}{% endfor %}
-</ol>
+{:toc}

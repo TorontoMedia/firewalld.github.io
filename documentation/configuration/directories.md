@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Directories"
+parent: "Configuration"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 firewalld supports two configuration directories:

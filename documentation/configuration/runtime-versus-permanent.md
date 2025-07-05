@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Runtime versus Permanent"
+parent: "Configuration"
+ancestor: "Documentation"
+nav_order: 1
 --- 
 
 The configuration is separated into the runtime and the permanent configuration.

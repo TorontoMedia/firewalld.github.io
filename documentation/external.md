@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: External Resources
+parent: "Documentation"
+nav_order: 13
 ---
 
  * [Using Firewalls in RHEL-7](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Using_Firewalls.html) (Red Hat Customer Portal)

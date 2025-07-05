@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Parts"
+parent: "Zone"
+ancestor: "Documentation"
+nav_exclude: true
 ---
 
 The parts of a zone ...

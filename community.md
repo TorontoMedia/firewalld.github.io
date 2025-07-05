@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: Community
+nav_order: 2
 ---
 
 Do you need help solving a firewalld related problem? Do you want to discuss an idea or contribute a patch, artwork or something else? This page lists the best ways to get in touch with the firewalld community.

@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Get firewalld State"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 1
 ---
 
 ## With firewall-cmd

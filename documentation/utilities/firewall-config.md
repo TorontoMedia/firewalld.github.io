@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "firewall-config"
+parent: "Utilities"
+ancestor: "Documentation"
+nav_order: 2
 ---
 
 This is the graphical configuration tool for firewalld.

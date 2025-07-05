@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "firewalld.conf"
+parent: "Configuration"
+ancestor: "Documentation"
+nav_order: 2
 ---
 
 The firewalld.conf file in `/etc/firewalld` provides the base configuration for firewalld. If it is absent or if `/etc/firewalld` is missing, the firewalld internal defaults will be used.

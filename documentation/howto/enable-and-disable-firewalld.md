@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Enable and Disable firewalld"
+parent: "HowTo"
+ancestor: "Documentation"
+nav_order: 0
 ---
 
 firewalld provides an init script for systems using classic SysVinit and also a systemd service file. The following documentation is about the systemd service used in Fedora, RHEL and CentOS distributions.
